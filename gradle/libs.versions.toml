@@ -1,0 +1,69 @@
+# File: gradle/libs.versions.toml
+
+[versions]
+# PLUGINS
+agp = "8.4.1" # Versi stabil terbaru dari AGP
+kotlin = "1.9.23"
+
+# DEPENDENCIES
+coreKtx = "1.13.1"
+appcompat = "1.7.0"
+material = "1.12.0" # Anda memiliki dua versi material, kita satukan ke versi terbaru
+activity = "1.9.0"
+constraintlayout = "2.1.4"
+lifecycle = "2.8.1"
+navigation = "2.7.7"
+playServicesLocation = "21.3.0"
+playServicesMaps = "18.2.0"
+retrofit = "2.9.0" # Versi ini masih sangat umum dan stabil
+okhttp = "4.12.0" # Sebaiknya versi interceptor sama dengan okhttp
+glide = "4.16.0"
+mpandroidchart = "v3.1.0"
+
+
+# TESTING
+junit = "4.13.2"
+junitVersion = "1.1.5" # Sedikit update dari versi sebelumnya
+espressoCore = "3.5.1"
+
+
+[libraries]
+# ANDROIDX
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+
+# MATERIAL DESIGN
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+
+# LIFECYCLE & NAVIGATION
+androidx-lifecycle-livedata-ktx = { group = "androidx.lifecycle", name = "lifecycle-livedata-ktx", version.ref = "lifecycle" }
+androidx-lifecycle-viewmodel-ktx = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycle" }
+androidx-navigation-fragment-ktx = { group = "androidx.navigation", name = "navigation-fragment-ktx", version.ref = "navigation" }
+androidx-navigation-ui-ktx = { group = "androidx.navigation", name = "navigation-ui-ktx", version.ref = "navigation" }
+
+# GOOGLE PLAY SERVICES
+play-services-location = { group = "com.google.android.gms", name = "play-services-location", version.ref = "playServicesLocation" }
+play-services-maps = { group = "com.google.android.gms", name = "play-services-maps", version.ref = "playServicesMaps" }
+
+# RETROFIT & OKHTTP
+retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit" }
+retrofit-converter-gson = { group = "com.squareup.retrofit2", name = "converter-gson", version.ref = "retrofit" }
+okhttp-logging-interceptor = { group = "com.squareup.okhttp3", name = "logging-interceptor", version.ref = "okhttp" }
+
+# GLIDE (IMAGE LOADING)
+glide = { group = "com.github.bumptech.glide", name = "glide", version.ref = "glide" }
+
+# MPANDROIDCHART (CHARTS)
+mpandroidchart = { group = "com.github.PhilJay", name = "MPAndroidChart", version.ref = "mpandroidchart" }
+
+# TESTING
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }

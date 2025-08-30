@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo_icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.IndonesiaPower"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".ui.petugas.tambah.TambahPetugasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.petugas.edit.EditPetugasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.petugas.RiwayatPetugasActivity"
+            android:exported="false" />
+
+
+        <activity
+            android:name=".ui.pengelola.tambah.TambahPengelolaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.pengelola.edit.EditPengelolaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.pengelola.RiwayatPengelolaActivity"
+            android:exported="false" />
+
+
+
+        <activity
+            android:name=".ui.admin.tambah.TambahAdminActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.admin.edit.EditAdminActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.admin.RiwayatAdminActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.penerimaan.RiwayatPenerimaanActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".ui.penerimaan.tambah.TambahPenerimaanActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".ui.penerimaan.edit.EditPenerimaanActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".ui.kategori.edit.EditKategoriActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.kategori.tambah.TambahKategoriActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.kategori.RiwayatKategoriActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.pemeliharaan.edit.EditPemeliharaanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.pemeliharaan.tambah.TambahPemeliharaanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.pemeliharaan.RiwayatPemeliharaanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.barang.tambah.TambahBarangActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.barang.edit.EditBarangActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.barang.detail.DetailBarangActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.barang.RiwayatBarangActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.auth.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.splashscreen.SplashScreenActivity"
+            android:exported="true"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="primary_50">#edfdfe</color>
+    <color name="primary_100">#d2f7fb</color>
+    <color name="primary_200">#abeef6</color>
+    <color name="primary_500">#14a2ba</color>
+    <color name="primary_700">#186f86</color>
+    <color name="primary_800">#1c5a6e</color>
+    <color name="secondary">#125d72</color>
+
+    <color name="blue">#0f4c92</color>
+
+    <color name="grey_50">#f9f9f9</color>
+    <color name="grey_100">#efefef</color>
+    <color name="grey_200">#dcdcdc</color>
+    <color name="grey_300">#bdbdbd</color>
+    <color name="grey_400">#989898</color>
+    <color name="grey_500">#7c7c7c</color>
+    <color name="grey_600">#656565</color>
+    <color name="grey_700">#525252</color>
+    <color name="grey_800">#464646</color>
+    <color name="grey_900">#3d3d3d</color>
+    <color name="grey_950">#292929</color>
+
+    <color name="red">#ff5e5b</color>
+    <color name="red_100">#ffe2e1</color>
+
+    <color name="yellow">#ffcb00</color>
+
+    <!-- Badges color -->
+    <color name="badge_primary">#0d6efd</color>
+    <color name="badge_success">#19a061</color>
+    <color name="badge_danger">#dc3545</color>
+    <color name="badge_warning">#ffc107</color>
+    <color name="badge_info">#0dcaf0</color>
+    <color name="badge_dark">#35393c</color>
+    <color name="badge_secondary">#6c757d</color>
+
+    <!-- Alerts color -->
+    <color name="alert_primary">#cce5ff</color>
+    <color name="alert_text_primary">#004085</color>
+    <color name="alert_success">#d4edda</color>
+    <color name="alert_text_success">#155724</color>
+    <color name="alert_danger">#f8d7da</color>
+    <color name="alert_text_danger">#721c24</color>
+    <color name="alert_warning">#fff3cd</color>
+    <color name="alert_text_warning">#856404</color>
+    <color name="alert_info">#d1ecf1</color>
+    <color name="alert_text_info">#0c5460</color>
+    <color name="alert_dark">#d6d8d9</color>
+    <color name="alert_text_dark">#1b1e21</color>
+    <color name="alert_secondary">#e2e3e5</color>
+    <color name="alert_text_secondary">#383d41</color>
+    <color name="red_500" />
+</resources>
